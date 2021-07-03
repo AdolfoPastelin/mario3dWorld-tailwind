@@ -1,5 +1,5 @@
 {
-	"name": "mario3dWorld-tailwind",
+	"name": "mario-3d-world_tailwind",
 	"version": "1.0.0",
 	"description": "This repository contains a webpage using tailwind CSS.",
 	"main": "index.js",
