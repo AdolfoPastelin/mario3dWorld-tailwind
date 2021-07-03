@@ -1,0 +1,26 @@
+{
+	"name": "mario3dWorld-tailwind",
+	"version": "1.0.0",
+	"description": "This repository contains a webpage using tailwind CSS.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/AdolfoPastelin/mario3dWorld-tailwind.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/AdolfoPastelin/mario3dWorld-tailwind/issues"
+	},
+	"homepage": "https://github.com/AdolfoPastelin/mario3dWorld-tailwind#readme",
+	"dependencies": {
+		"@tailwindcss/jit": "^0.1.18",
+		"autoprefixer": "^10.2.6",
+		"postcss-cli": "^8.3.1",
+		"tailwindcss": "^2.2.4"
+	}
+}
