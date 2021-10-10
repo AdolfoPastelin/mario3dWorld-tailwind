@@ -17744,6 +17744,10 @@ video {
   background-image: url(../img/wave-white.png);
 }
 
+.bg-wave-pattern-dots {
+  background-image: url(../img/pattern-white-dots.png);
+}
+
 .from-transparent {
   --tw-gradient-from: transparent;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -48996,6 +49000,10 @@ video {
     background-image: url(../img/wave-white.png);
   }
 
+  .sm\:bg-wave-pattern-dots {
+    background-image: url(../img/pattern-white-dots.png);
+  }
+
   .sm\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -80161,6 +80169,10 @@ video {
 
   .md\:bg-wave-pattern {
     background-image: url(../img/wave-white.png);
+  }
+
+  .md\:bg-wave-pattern-dots {
+    background-image: url(../img/pattern-white-dots.png);
   }
 
   .md\:from-transparent {
@@ -111330,6 +111342,10 @@ video {
     background-image: url(../img/wave-white.png);
   }
 
+  .lg\:bg-wave-pattern-dots {
+    background-image: url(../img/pattern-white-dots.png);
+  }
+
   .lg\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -142497,6 +142513,10 @@ video {
     background-image: url(../img/wave-white.png);
   }
 
+  .xl\:bg-wave-pattern-dots {
+    background-image: url(../img/pattern-white-dots.png);
+  }
+
   .xl\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -173662,6 +173682,10 @@ video {
 
   .\32xl\:bg-wave-pattern {
     background-image: url(../img/wave-white.png);
+  }
+
+  .\32xl\:bg-wave-pattern-dots {
+    background-image: url(../img/pattern-white-dots.png);
   }
 
   .\32xl\:from-transparent {
