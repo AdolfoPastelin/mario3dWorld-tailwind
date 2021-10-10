@@ -31863,7 +31863,7 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link{
+.link {
   display: block;
   padding: 1.25rem;
   font-weight: 700;
@@ -31873,7 +31873,7 @@ video {
 
 .link:hover {
   --tw-text-opacity: 1;
-  color: rgba(245, 158, 11, var(--tw-text-opacity));
+  color: rgba(251, 191, 36, var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {

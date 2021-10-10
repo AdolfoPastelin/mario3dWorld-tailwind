@@ -5,6 +5,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- TODO> Add favicon -->
 	<link rel="stylesheet" href="css/main.css">
 	<title>Super Mario 3D World</title>
 </head>
@@ -13,7 +14,7 @@
 	<div class="mx-auto">
 		<nav class="bg-gray-800 flex justify-between lg:justify-start items-center">
 			<div class="logo p-2">
-				<img src="img/logo.png" width="100" alt="logo">
+				<a href="index.html"><img src="img/logo.png" width="100" alt="logo"></a>
 			</div>
 
 			<!-- Default menu | for large devices -->
@@ -23,10 +24,10 @@
 					<li><a href="#" class="link">Play Together</a></li>
 					<li><a href="#" class="link">Explore</a></li>
 					<li><a href="#"
-							class="border-4 border-yellow-400 text-white font-bold p-2 rounded-full hover:bg-white hover:text-black transition duration-500">Browser
+							class="border-4 border-yellow-500 text-white font-bold px-4 py-3 rounded-full hover:bg-yellow-500 hover:text-black transition duration-300">Browser
 							Fury</a></li>
 					<li><a href="#"
-							class="rounded-full bg-red-500 text-white font-bold px-4 py-3 hover:text-black hover:bg-white transition transition-duration-500">Buy
+							class="rounded-full bg-red-500 text-white font-bold px-4 py-3 hover:text-black hover:bg-white transition transition-duration-300">Buy
 							Now</a></li>
 				</ul>
 			</div>
@@ -39,10 +40,10 @@
 					<li><a href="#" class="link">Play Together</a></li>
 					<li><a href="#" class="link">Explore</a></li>
 					<li><a href="#"
-							class="my-4 inline-block border-4 border-yellow-400 text-white font-bold p-2 rounded-full hover:bg-white hover:text-black transition duration-500">Browser
+							class="my-4 inline-block border-4 border-yellow-400 text-white font-bold p-2 rounded-full hover:bg-white hover:text-black transition duration-300">Browser
 							Fury</a></li>
 					<li><a href="#"
-							class="my-4 inline-block rounded-full bg-red-500 text-white font-bold px-4 py-3 hover:text-black hover:bg-white transition transition-duration-500">Buy
+							class="my-4 inline-block rounded-full bg-red-500 text-white font-bold px-4 py-3 hover:text-black hover:bg-white transition transition-duration-300">Buy
 							Now</a></li>
 				</ul>
 			</div>
@@ -56,10 +57,18 @@
 		<section>
 			<div class="bg-wave-pattern h-6 bg-repeat-x relative -top-2"></div>
 			<div class="bg-wave-pattern-dots text-center p-4 flex flex-col gap-3 justify-center md:flex-row">
-				<a href="#">Buy now</a>
-				<a href="#">Watch the trailer</a>
+				<a href="#"
+					class="inline-block py-3 px-16 bg-black text-white font-bold border-transparent border-4 text-lg rounded-2xl hover:border-yellow-400 hover:bg-yellow-500 hover:text-black transition duration-300">Buy
+					now</a>
+				<a href="#"
+					class="inline-block py-3 px-16 bg-red-500 text-white font-bold border-transparent border-4 text-lg rounded-2xl hover:border-gray-200 hover:bg-white hover:text-black transition duration-100">Watch
+					the trailer</a>
 			</div>
+
+			<div class="bg-wave-pattern bg-repeat-x h-6 relative top-2"></div>
 		</section>
+
+		<section class="bg-red-500"></section>
 	</div>
 
 	<script src="js/main.js"></script>
